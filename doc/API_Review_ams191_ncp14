@@ -1,0 +1,42 @@
+#Part 1
+
+What about your API/design is intended to be flexible?
+*Noah is working on the controller and to make it flexible, he created several interfaces for all of the back end objects that way he can just change where objects are pointed to without affecting the back end code.
+*Anngelyque is working through several independent controllers that dictate how the front and back communicate. As the game player needs additional features, they can all be accessed from the specific gameController. 
+
+How is your API/design encapsulating your implementation decisions?
+*Noah's controller is dependent on both back and front end API, and although he tries to make it as flexible as possible, he must attest to the front and back's API changes.
+*Anngelyque is sharing several features with the other front end sector, however, the respective sides can not affect each others implementation. Everything that is updated in the front is sent back through the controller.
+
+How is your part linked to other parts of the project?
+*Noah is the connection between the front and back end so they do not have to connect directly and can change their implementation more freely.
+*Anngelyque is focusing on the player and thus interacts with the back end strictly through a controller class.
+
+What exceptions (error cases) might occur in your part and how will you handle them (or not, by throwing)?
+*Noah is using groovy commands and parsing them so if the groovy code is broken such as an empty string, then he throws an exception to the front end saying bad input.
+*Anngelyque is working on the login page and will throw several errors in the form of alerts when usernames / passwords are not correct. While playing the game, she will throw an error when an invalid move is tried by the user.
+
+Why do you think your API/design is good (also define what your measure of good is)?
+*Noah and Anngelyque both believe our designs are not every good because there are many design decisions that consistently make the code better however, it affects too much for the surrounding APIs.
+
+#Part 2
+
+What feature/design problem are you most excited to work on?
+*Noah is most excited to work on implementing reflection through using groovy to set the game rules.
+*Anngelyque is most excited on working on the profile aspect where there is an actual user database with saved scores and passwords, etc.
+
+What feature/design problem are you most worried about working on?
+*Noah is most worried about implemented the saving and reading from XML which is something that is new to him.
+*Anngelyque is most worried about making sure the back end shows properly through animation on screen.
+
+What major feature do you plan to implement this weekend?
+*Noah plans to implement the XML parsing feature through serialization.
+*Anngelyque plans to connect the front end to the back via the controller and set up a basic game screen.
+
+Discuss the use cases/issues created for your pieces: are they descriptive, appropriate, and reasonably sized?
+*Noah thinks that they tended to be descriptive and appropriate, but they didn't really span over classes.
+*Anngelyque thinks they weren't descriptive enough as they gave general ideas but they didn't cover connection aspects.
+
+Do you have use cases for errors that might occur?
+*Noah had a use case for when the groovy code from the the two sides is invalid which creates a button for the front end.
+*Anngelyque had use cases for when the user tries to perform and invalid action while playing the game.

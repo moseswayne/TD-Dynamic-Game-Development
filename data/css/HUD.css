@@ -1,0 +1,20 @@
+#grid {
+    -fx-background-color: white;
+    -fx-background-radius: 5.0;
+    -fx-background-insets: 0.0 5.0 0.0 5.0;
+    -fx-opacity: .5;
+    -fx-padding: 10;
+}
+
+#fancytext {
+    -fx-font: 8px Tahoma;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+}
+
+#key{
+	-fx-fill: linear-gradient(orange, orangered);
+}
+
+#val{
+	-fx-fill:  linear-gradient(cyan , dodgerblue);
+}

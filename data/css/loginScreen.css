@@ -1,0 +1,110 @@
+#towerBackground{
+    -fx-background-image: url("castle.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#title {
+	-fx-font-family: "HelveticaNeue";
+	-fx-font-size: 75;
+	-fx-text-fill: #4593CC;
+	-fx-effect: innershadow( one-pass-box , rgba(3,52,40,0.5) , 10,.5,2,2 );
+}
+
+.button {
+	-fx-background-radius: 15;
+	-fx-font-family: "HelveticaNeue";
+	-fx-alignment: CENTER;
+    -fx-background-color: #780116;
+    -fx-font-weight: lighter;
+    -fx-text-fill: white;
+    -fx-font-size: 1.875em;
+    -fx-scale-x: .75;
+    -fx-scale-y: .75;
+    -fx-stroke: #42dfb8;
+    -fx-stroke-width: 2;
+    -fx-effect: dropshadow( one-pass-box , black , 5,.5,1,1 );
+}
+
+.button:hover {
+	-fx-font-family: "HelveticaNeue";
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+    -fx-background-color: #E94117;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 1.875em;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    -fx-stroke: #42dfb8;
+    -fx-stroke-width: 2;
+}
+
+.grid {
+	-fx-grid-lines-visible: false;
+	-fx-background-color: transparent;
+}
+
+.hyperlink {
+	-fx-text-fill: white;
+	-fx-font-size: 15;
+	-fx-effect: dropshadow( one-pass-box , black , 5,.5,1,1 );
+}
+
+.hyperlink:hover {
+	-fx-text-fill: white;
+	-fx-font-weight: BOLD;
+}
+
+.label {
+	-fx-font-family: "HelveticaNeue";
+	-fx-font-size: 40;
+	-fx-text-fill: white;
+	-fx-font-weight: BOLD;
+	-fx-effect: dropshadow( one-pass-box , black , 5,.5,1,1 );
+}
+#text {
+	-fx-font-family: "HelveticaNeue";
+	-fx-font-size: 20;
+	-fx-font-weight: BOLD;
+	-fx-fill: white;
+	-fx-effect: dropshadow( one-pass-box , black , 5,.5,1,1 );
+}
+
+.text-field {
+	-fx-font-family: "HelveticaNeue";
+	-fx-text-fill: blue;
+}
+
+.password-field {
+	-fx-font-family: "HelveticaNeue";
+	-fx-text-fill: blue;
+}
+
+.anchor-pane {
+		-fx-background-color: linear-gradient(#85bbf5, white);
+}
+
+.anchor-pane-2 {
+		-fx-background-color: linear-gradient(#85bbf5, black);
+}
+
+.grid-pane {
+		-fx-background-color: transparent;
+}
+
+.border-pane {
+		-fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.stack-pane {
+	-fx-background-color: #4593CC;
+	-fx-background-radius: 50;
+	-fx-opacity: .7;
+	-fx-effect: dropshadow( one-pass-box , gray , 20, .1, 5, 5);
+}

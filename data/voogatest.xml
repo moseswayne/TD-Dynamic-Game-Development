@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<type type="GameData">
+<PathData>
+<Path>
+<X>
+1.0 2.8 9.9
+</X>
+<Y>
+1.0 2.0 3.0
+</Y>
+</Path>
+<Path>
+<X>
+1.0 2.0
+</X>
+<Y>
+1.0 9.9
+</Y>
+
+</Path>
+</PathData>
+
+
+<ActorData>
+<Actor>
+<type>Troop</type>
+<name>Orc</name>
+<imagePath>orc.png</imagePath>
+<ShootTargetFarData>1.0 1 Troop 1 1.0</ShootTargetFarData>
+<BaseDamageData>1.0 Troop</BaseDamageData>
+<LimitedHealthData>1.0</LimitedHealthData>
+</Actor>
+<Actor>
+<type>Troop</type>
+<name>Troll</name>
+<imagePath>troll.jpg</imagePath>
+<LimitedHealthData>1.0</LimitedHealthData>
+
+</Actor>
+<Actor>
+<type>Tower</type>
+<name>Bulbasaur</name>
+<imagePath>bulb.jpg</imagePath>
+<LimitedHealthData>1.0</LimitedHealthData>
+
+</Actor>
+<Actor>
+<type>Projectile</type>
+<name>Bullet</name>
+<imagePath>bullet.jpg</imagePath>
+<LimitedHealthData>1.0</LimitedHealthData>
+
+</Actor>
+
+</ActorData>
+<LevelData>
+
+<Duration>10</Duration>
+<HealthMultiplier>1.0</HealthMultiplier>
+<SpeedMultiplier>1.0</SpeedMultiplier>
+<AttackMultiplier>1.0</AttackMultiplier>
+<Difficulty>1.0</Difficulty>
+<Wave>
+<Enemy>
+<ActorID>0</ActorID>
+<Number>50</Number>
+</Enemy>
+<Enemy>
+<ActorID>1</ActorID>
+<Number>29</Number>
+</Enemy>
+</Wave>
+<Wave>
+<Enemy>
+<ActorID>0</ActorID>
+<Number>50</Number>
+</Enemy>
+</Wave>
+</LevelData>
+
+</type>

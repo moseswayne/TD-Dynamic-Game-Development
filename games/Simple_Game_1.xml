@@ -1,0 +1,201 @@
+<gamedata.GameData>
+  <name>Simple_Game_1</name>
+  <levels>
+    <entry>
+      <int>1</int>
+      <gamedata.LevelData>
+        <myWaves>
+          <gamedata.WaveData>
+            <waveEnemies>
+              <gamedata.EnemyInWaveData>
+                <myActor>
+                  <myData>
+                    <entry>
+                      <string>MoveWithSetPath</string>
+                      <gamedata.composition.MoveWithSetPathData>
+                        <mySpeed>0.005</mySpeed>
+                        <myPaths>
+                          <list>
+                            <gameengine.grid.classes.Coordinates>
+                              <x>0.03816793893129771</x>
+                              <y>0.3163265306122449</y>
+                            </gameengine.grid.classes.Coordinates>
+                            <gameengine.grid.classes.Coordinates>
+                              <x>0.1946564885496183</x>
+                              <y>0.5102040816326531</y>
+                            </gameengine.grid.classes.Coordinates>
+                            <gameengine.grid.classes.Coordinates>
+                              <x>0.3187022900763359</x>
+                              <y>0.3843537414965986</y>
+                            </gameengine.grid.classes.Coordinates>
+                            <gameengine.grid.classes.Coordinates>
+                              <x>0.4618320610687023</x>
+                              <y>0.5408163265306123</y>
+                            </gameengine.grid.classes.Coordinates>
+                            <gameengine.grid.classes.Coordinates>
+                              <x>0.5572519083969466</x>
+                              <y>0.30612244897959184</y>
+                            </gameengine.grid.classes.Coordinates>
+                            <gameengine.grid.classes.Coordinates>
+                              <x>0.7061068702290076</x>
+                              <y>0.5340136054421769</y>
+                            </gameengine.grid.classes.Coordinates>
+                            <gameengine.grid.classes.Coordinates>
+                              <x>0.7958015267175572</x>
+                              <y>0.24489795918367346</y>
+                            </gameengine.grid.classes.Coordinates>
+                            <gameengine.grid.classes.Coordinates>
+                              <x>0.9122137404580153</x>
+                              <y>0.336734693877551</y>
+                            </gameengine.grid.classes.Coordinates>
+                          </list>
+                        </myPaths>
+                      </gamedata.composition.MoveWithSetPathData>
+                    </entry>
+                  </myData>
+                  <type>
+                    <type>Troop</type>
+                    <imagePath>enemy_icon.png</imagePath>
+                    <placeable>false</placeable>
+                  </type>
+                  <health class="gamedata.composition.LimitedHealthData">
+                    <startHealth>10.0</startHealth>
+                  </health>
+                  <basic>
+                    <name>cat_random</name>
+                    <isActive>true</isActive>
+                    <imagePath>file:/Users/maddiebriere/Documents/CompSci308/voogasalad_ilovesingletons/images/cat_random.png</imagePath>
+                    <heading>0.0</heading>
+                    <imageDimensions class="gameengine.grid.classes.Coordinates">
+                      <x>0.1</x>
+                      <y>0.1</y>
+                    </imageDimensions>
+                  </basic>
+                  <layer>
+                    <myPolygons/>
+                  </layer>
+                  <cost>0.0</cost>
+                </myActor>
+                <myWaveNumber>10</myWaveNumber>
+              </gamedata.EnemyInWaveData>
+            </waveEnemies>
+          </gamedata.WaveData>
+        </myWaves>
+        <duration>100.0</duration>
+        <healthMultiplier>-1.0</healthMultiplier>
+        <speedMultiplier>-1.0</speedMultiplier>
+        <attackMultiplier>-1.0</attackMultiplier>
+        <condition class="gameengine.conditions.EnduranceCondition">
+          <myFinalFrame>100</myFinalFrame>
+          <myCurrentFrame>0</myCurrentFrame>
+        </condition>
+      </gamedata.LevelData>
+    </entry>
+  </levels>
+  <preferences>
+    <numLives>
+      <value class="int">3</value>
+    </numLives>
+    <startMoney>
+      <value class="int">100</value>
+    </startMoney>
+    <enemyLoop>
+      <value class="boolean">false</value>
+    </enemyLoop>
+    <towersAttackable>
+      <value class="boolean">false</value>
+    </towersAttackable>
+    <wantMoney>
+      <value class="boolean">false</value>
+    </wantMoney>
+    <expByLevel>
+      <value class="boolean">false</value>
+    </expByLevel>
+    <pauseBetweenWaves>
+      <value class="boolean">false</value>
+    </pauseBetweenWaves>
+    <cleanLevel>
+      <value class="boolean">false</value>
+    </cleanLevel>
+    <musicFilePath>music/hero_song.mp3</musicFilePath>
+  </preferences>
+  <myLayers>
+    <myPathData>
+      <myPaths>
+        <entry>
+          <int>0</int>
+          <list reference="../../../../../levels/entry/gamedata.LevelData/myWaves/gamedata.WaveData/waveEnemies/gamedata.EnemyInWaveData/myActor/myData/entry/gamedata.composition.MoveWithSetPathData/myPaths/list"/>
+        </entry>
+      </myPaths>
+      <numOptions>1</numOptions>
+    </myPathData>
+    <myLayers/>
+    <myBaseData>
+      <myActorLocationTuples/>
+    </myBaseData>
+  </myLayers>
+  <types>
+    <types.BasicActorType reference="../../levels/entry/gamedata.LevelData/myWaves/gamedata.WaveData/waveEnemies/gamedata.EnemyInWaveData/myActor/type"/>
+    <types.BasicActorType>
+      <type>Dog</type>
+      <imagePath>dog_random.png</imagePath>
+      <placeable>true</placeable>
+    </types.BasicActorType>
+  </types>
+  <display>
+    <width>100</width>
+    <height>400</height>
+    <location>Left</location>
+    <actorOrder/>
+    <backgroundImagePath>default_map_background_0.jpg</backgroundImagePath>
+  </display>
+  <pieces>
+    <entry>
+      <int>0</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../levels/entry/gamedata.LevelData/myWaves/gamedata.WaveData/waveEnemies/gamedata.EnemyInWaveData/myActor"/>
+          </entry>
+        </generations>
+        <count>0</count>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>1</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData>
+              <myData/>
+              <type reference="../../../../../../../types/types.BasicActorType[2]"/>
+              <health class="gamedata.composition.LimitedHealthData">
+                <startHealth>10.0</startHealth>
+              </health>
+              <basic>
+                <name>dog_random</name>
+                <isActive>true</isActive>
+                <imagePath>file:/Users/maddiebriere/Documents/CompSci308/voogasalad_ilovesingletons/bin/dog_random.png</imagePath>
+                <heading>0.0</heading>
+                <imageDimensions class="gameengine.grid.classes.Coordinates">
+                  <x>0.1</x>
+                  <y>0.1</y>
+                </imageDimensions>
+              </basic>
+              <layer>
+                <myPolygons/>
+              </layer>
+              <cost>0.0</cost>
+            </gamedata.ActorData>
+          </entry>
+        </generations>
+        <count>0</count>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+  </pieces>
+  <numOptions>2</numOptions>
+</gamedata.GameData>

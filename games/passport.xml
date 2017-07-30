@@ -1,0 +1,415 @@
+<gamedata.GameData>
+  <name>passport</name>
+  <levels>
+    <entry>
+      <int>1</int>
+      <gamedata.LevelData>
+        <myWaves/>
+        <duration>100.0</duration>
+        <healthMultiplier>-1.0</healthMultiplier>
+        <speedMultiplier>-1.0</speedMultiplier>
+        <attackMultiplier>-1.0</attackMultiplier>
+      </gamedata.LevelData>
+    </entry>
+  </levels>
+  <preferences>
+    <numLives>
+      <value class="int">0</value>
+    </numLives>
+    <enemyLoop>
+      <value class="boolean">false</value>
+    </enemyLoop>
+    <towersAttackable>
+      <value class="boolean">false</value>
+    </towersAttackable>
+    <wantMoney>
+      <value class="boolean">false</value>
+    </wantMoney>
+    <expByLevel>
+      <value class="boolean">false</value>
+    </expByLevel>
+    <pauseBetweenWaves>
+      <value class="boolean">false</value>
+    </pauseBetweenWaves>
+    <cleanLevel>
+      <value class="boolean">false</value>
+    </cleanLevel>
+    <musicFilePath>music/hero_song.mp3</musicFilePath>
+  </preferences>
+  <myLayers>
+    <myPathData>
+      <myPaths/>
+      <numOptions>0</numOptions>
+    </myPathData>
+    <myLayers/>
+  </myLayers>
+  <types/>
+  <display>
+    <width>80</width>
+    <height>400</height>
+    <location>Left</location>
+    <actorOrder>
+      <gamedata.ActorData>
+        <myData/>
+        <type>
+          <type>Troop</type>
+          <placeable>true</placeable>
+        </type>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Red</name>
+          <isActive>true</isActive>
+          <imagePath>balloons/red.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type reference="../../gamedata.ActorData/type"/>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Blue</name>
+          <isActive>true</isActive>
+          <imagePath>balloons/blue.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type reference="../../gamedata.ActorData/type"/>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Green</name>
+          <isActive>true</isActive>
+          <imagePath>balloons/green.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type>
+          <type>Tower</type>
+          <placeable>true</placeable>
+        </type>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Bullbasaur</name>
+          <isActive>true</isActive>
+          <imagePath>Pokemon Icons/bullbasaur.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type reference="../../gamedata.ActorData[4]/type"/>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Pikachu</name>
+          <isActive>true</isActive>
+          <imagePath>Pokemon Icons/pikachu.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type reference="../../gamedata.ActorData[4]/type"/>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Jigglypuff</name>
+          <isActive>true</isActive>
+          <imagePath>Pokemon Icons/jigglypuff.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type reference="../../gamedata.ActorData[4]/type"/>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Charmander</name>
+          <isActive>true</isActive>
+          <imagePath>Pokemon Icons/charmander.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type reference="../../gamedata.ActorData[4]/type"/>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Snorlax</name>
+          <isActive>true</isActive>
+          <imagePath>Pokemon Icons/snorlax.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type>
+          <type>Projectile</type>
+          <placeable>true</placeable>
+        </type>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Water</name>
+          <isActive>true</isActive>
+          <imagePath>projectiles/raindrop.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type reference="../../gamedata.ActorData[9]/type"/>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Nature</name>
+          <isActive>true</isActive>
+          <imagePath>projectiles/leaf.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type reference="../../gamedata.ActorData[9]/type"/>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Fire</name>
+          <isActive>true</isActive>
+          <imagePath>projectiles/flame.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+      <gamedata.ActorData>
+        <myData/>
+        <type reference="../../gamedata.ActorData[9]/type"/>
+        <health class="gamedata.composition.LimitedHealthData">
+          <startHealth>10.0</startHealth>
+        </health>
+        <basic>
+          <name>Ice</name>
+          <isActive>true</isActive>
+          <imagePath>projectiles/snowflake.png</imagePath>
+          <heading>0.0</heading>
+        </basic>
+        <layer>
+          <myPolygons/>
+        </layer>
+        <cost>0.0</cost>
+      </gamedata.ActorData>
+    </actorOrder>
+    <backgroundImagePath>default_map_background_0.jpg</backgroundImagePath>
+  </display>
+  <pieces>
+    <entry>
+      <int>0</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>1</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[2]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>2</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[3]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>3</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[4]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>4</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[5]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>5</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[6]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>6</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[7]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>7</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[8]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>8</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[9]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>9</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[10]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>10</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[11]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+    <entry>
+      <int>11</int>
+      <gamedata.LineageData>
+        <generations>
+          <entry>
+            <int>0</int>
+            <gamedata.ActorData reference="../../../../../../display/actorOrder/gamedata.ActorData[12]"/>
+          </entry>
+        </generations>
+        <current>0</current>
+      </gamedata.LineageData>
+    </entry>
+  </pieces>
+  <numOptions>12</numOptions>
+</gamedata.GameData>

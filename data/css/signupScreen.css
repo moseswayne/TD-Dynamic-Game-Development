@@ -1,0 +1,96 @@
+#towerBackground {
+    -fx-background-image: url("castle2.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#root {
+	-fx-background-color:
+		linear-gradient(#ffa56f, black);
+}
+
+#title {
+	-fx-font-family: "HelveticaNeue";
+	-fx-font-size: 60;
+	-fx-text-fill: black;
+	-fx-font-weight: BOLD;
+}
+
+#pane {
+	-fx-background-color: #f4b942;
+	-fx-background-radius: 20;
+}
+
+#main-pane {
+	-fx-background-color: black;
+	-fx-opacity: .8;
+	-fx-background-radius: 20;
+}
+
+.grid {
+	-fx-grid-lines-visible: false;
+	-fx-background-color: transparent;
+}
+
+.label {
+	-fx-font-family: "HelveticaNeue";
+	-fx-font-size: 40;
+	-fx-text-fill: #4593CC;
+	-fx-font-weight: BOLD;
+	-fx-effect: dropshadow( one-pass-box , rgba(219,124, 38,0.5) , 10,.5,2,2 );
+}
+#text {
+	-fx-font-family: "HelveticaNeue";
+	-fx-font-size: 30;
+	-fx-font-weight: BOLD;
+	-fx-fill: #f4b942;
+}
+
+.button {
+	-fx-background-radius: 15;
+	-fx-font-family: "HelveticaNeue";
+	-fx-alignment: CENTER;
+    -fx-background-color: #f4b942;
+    -fx-font-weight: lighter;
+    -fx-text-fill: white;
+    -fx-font-size: 1.875em;
+    -fx-scale-x: .75;
+    -fx-scale-y: .75;
+    -fx-stroke: #42dfb8;
+    -fx-stroke-width: 2;
+}
+
+.button:hover {
+	-fx-font-family: "HelveticaNeue";
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+    -fx-background-color: black;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 1.875em;
+    -fx-scale-x: .8;
+    -fx-scale-y: .8;
+    -fx-stroke: #42dfb8;
+    -fx-stroke-width: 2;
+}
+
+.anchor-pane {
+		-fx-background-color: linear-gradient(#85bbf5, white);
+}
+
+.anchor-pane-2 {
+		-fx-background-color: linear-gradient(#85bbf5, black);
+}
+
+.grid-pane {
+		-fx-background-color: transparent;
+}
+
+.border-pane {
+		-fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}

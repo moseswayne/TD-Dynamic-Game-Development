@@ -1,0 +1,23 @@
+#text {
+	-fx-background-color: white;
+	-fx-font-family: "HelveticaNeue";
+	-fx-font-size: 15;
+	-fx-font-weight: BOLD;
+	-fx-fill: white;
+}
+
+#hbox {
+	-fx-background-color: lightblue;
+	-fx-background-radius: 30;
+	-fx-border-color: black;
+	-fx-border-width: 10;
+	-fx-border-radius: 23;
+	-fx-effect: dropshadow( one-pass-box , black , 5,.5,1,1 );
+}
+
+.text-field {
+	-fx-font-size: 15;
+	-fx-text-fill: black;
+	-fx-prompt-text-fill: black;
+	-fx-background-color: lightblue;
+}
